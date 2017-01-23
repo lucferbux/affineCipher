@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965D435E1E36B25E0042F26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D435D1E36B25E0042F26E /* AppDelegate.swift */; };
+		965D43601E36B25E0042F26E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D435F1E36B25E0042F26E /* ViewController.swift */; };
+		965D43631E36B25E0042F26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965D43611E36B25E0042F26E /* Main.storyboard */; };
+		965D43651E36B25E0042F26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965D43641E36B25E0042F26E /* Assets.xcassets */; };
+		965D43681E36B25E0042F26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965D43661E36B25E0042F26E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		965D435A1E36B25E0042F26E /* AffinCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		965D435D1E36B25E0042F26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		965D435F1E36B25E0042F26E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		965D43621E36B25E0042F26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		965D43641E36B25E0042F26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		965D43671E36B25E0042F26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		965D43691E36B25E0042F26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965D43571E36B25E0042F26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965D43511E36B25E0042F26E = {
+			isa = PBXGroup;
+			children = (
+				965D435C1E36B25E0042F26E /* AffinCipher */,
+				965D435B1E36B25E0042F26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965D435B1E36B25E0042F26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965D435A1E36B25E0042F26E /* AffinCipher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965D435C1E36B25E0042F26E /* AffinCipher */ = {
+			isa = PBXGroup;
+			children = (
+				965D435D1E36B25E0042F26E /* AppDelegate.swift */,
+				965D435F1E36B25E0042F26E /* ViewController.swift */,
+				965D43611E36B25E0042F26E /* Main.storyboard */,
+				965D43641E36B25E0042F26E /* Assets.xcassets */,
+				965D43661E36B25E0042F26E /* LaunchScreen.storyboard */,
+				965D43691E36B25E0042F26E /* Info.plist */,
+			);
+			path = AffinCipher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965D43591E36B25E0042F26E /* AffinCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965D436C1E36B25E0042F26E /* Build configuration list for PBXNativeTarget "AffinCipher" */;
+			buildPhases = (
+				965D43561E36B25E0042F26E /* Sources */,
+				965D43571E36B25E0042F26E /* Frameworks */,
+				965D43581E36B25E0042F26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffinCipher;
+			productName = AffinCipher;
+			productReference = 965D435A1E36B25E0042F26E /* AffinCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965D43521E36B25E0042F26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "lucas fernández";
+				TargetAttributes = {
+					965D43591E36B25E0042F26E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Y2Y846R76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 965D43551E36B25E0042F26E /* Build configuration list for PBXProject "AffinCipher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965D43511E36B25E0042F26E;
+			productRefGroup = 965D435B1E36B25E0042F26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965D43591E36B25E0042F26E /* AffinCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965D43581E36B25E0042F26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965D43681E36B25E0042F26E /* LaunchScreen.storyboard in Resources */,
+				965D43651E36B25E0042F26E /* Assets.xcassets in Resources */,
+				965D43631E36B25E0042F26E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965D43561E36B25E0042F26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965D43601E36B25E0042F26E /* ViewController.swift in Sources */,
+				965D435E1E36B25E0042F26E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		965D43611E36B25E0042F26E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965D43621E36B25E0042F26E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		965D43661E36B25E0042F26E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965D43671E36B25E0042F26E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965D436A1E36B25E0042F26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		965D436B1E36B25E0042F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965D436D1E36B25E0042F26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = AffinCipher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucferbux.AffinCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		965D436E1E36B25E0042F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = AffinCipher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucferbux.AffinCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965D43551E36B25E0042F26E /* Build configuration list for PBXProject "AffinCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965D436A1E36B25E0042F26E /* Debug */,
+				965D436B1E36B25E0042F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965D436C1E36B25E0042F26E /* Build configuration list for PBXNativeTarget "AffinCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965D436D1E36B25E0042F26E /* Debug */,
+				965D436E1E36B25E0042F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965D43521E36B25E0042F26E /* Project object */;
+}
